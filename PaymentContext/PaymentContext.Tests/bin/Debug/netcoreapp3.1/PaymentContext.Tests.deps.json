@@ -13,7 +13,8 @@
           "Microsoft.NET.Test.Sdk": "16.2.0",
           "PaymentContext.Domain": "1.0.0",
           "PaymentContext.Shared": "1.0.0",
-          "coverlet.collector": "1.0.1"
+          "coverlet.collector": "1.0.1",
+          "Flunt": "1.0.4"
         },
         "runtime": {
           "PaymentContext.Tests.dll": {}
