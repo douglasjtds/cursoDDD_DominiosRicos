@@ -28,11 +28,12 @@ namespace PaymentContext.Domain.Entities
             // Se já tiver uma assinatura ativa, cancela
 
             //Cancela todas as outras assinaturas e coloca esta como principal
-            foreach (var sub in Subscriptions){
-                sub.Active = false;
+            foreach (var sub in Subscriptions)
+            {
+                // sub.Active = false; // Assim vai quebrar pq não posso mais mexer em algo do Subscription de fora dele
+                sub.Inactivate();
             }
 
-            // Subscriptions.Add(subscription);
             _subscriptions.Add(subscription);
         }
     }
