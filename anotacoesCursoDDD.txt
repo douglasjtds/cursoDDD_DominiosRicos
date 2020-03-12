@@ -23,3 +23,11 @@ Domain Driven Design
 	
 - Parte prática
 	- Classe Payment marcada como abstrata pq não pode instanciar um pagamento direto
+	
+- Corrupção de código
+
+- SOLID
+	- ler:
+		- Clean Code - Robert C. Martin (Uncle Bob)
+		- Clean Coder - Robert C. Martin (Uncle Bob)
+		- Clean Architecture - Robert C. Martin (Uncle Bob)
