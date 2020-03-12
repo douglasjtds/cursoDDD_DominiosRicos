@@ -31,3 +31,8 @@ Domain Driven Design
 		- Clean Code - Robert C. Martin (Uncle Bob)
 		- Clean Coder - Robert C. Martin (Uncle Bob)
 		- Clean Architecture - Robert C. Martin (Uncle Bob)
+		
+- Value Objects
+	- São objetos de valor que compôe uma entidade
+	- Normalmente persistido sempre dentro de uma entidade
+		- por exemplo, não vai ter uma tabela nome, documento... apenas a tabela estudante com os VOs dentro do código
