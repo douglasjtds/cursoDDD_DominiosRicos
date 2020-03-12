@@ -20,3 +20,6 @@ Domain Driven Design
 	- fácil manutenção
 	- fácil de ser reescrito
 	- quebrar o sistema em pedaços menores, módulos
+	
+- Parte prática
+	- Classe Payment marcada como abstrata pq não pode instanciar um pagamento direto
