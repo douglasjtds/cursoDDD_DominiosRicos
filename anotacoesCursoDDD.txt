@@ -1,0 +1,22 @@
+ ----------------------------------- Modelando Domínios Ricos -----------------------------------
+Domain Driven Design
+
+- Linguagem Obíquoa
+	- entendimento nivelado
+		- definições de entidades no código da forma que é entendida no contexto do cliente
+	- linguagem única
+	- codificar em inglês ou português? DEPENDE, mas não misture os dois
+	
+- Domínios Ricos vs Domínios Anêmicos 
+	- Domínio Anêmico, sem especifidade, sem regra de negócios, etc... (só propriedades, por exemplo, reflete o que está no banco)
+		- validações normalmente ficam fora da aplicação, podem ser feitas em stored procedures, etc...
+		- não é tão recomendado pois não dá pra testar uma SP por exemplo.
+	- Domínios Ricos é o contrário, tem propriedades mas também tem métodos, eventos, regras de negócios(que ficam na aplicação), etc...
+	
+- Separação de domínios em subdomínios - microserviços
+	- Exemplo Netflix - só um método get pra listar os filmes
+	
+- Separação em Contextos Delimitados
+	- fácil manutenção
+	- fácil de ser reescrito
+	- quebrar o sistema em pedaços menores, módulos
