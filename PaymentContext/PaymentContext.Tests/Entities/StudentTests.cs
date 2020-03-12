@@ -9,40 +9,50 @@ namespace PaymentContext.Tests
     [TestClass]
     public class StudentTests
     {
-        [TestMethod]
-        public void ShouldReturnErrorWhenHadActiveSubscription()
+        private readonly Name _name;
+        private readonly Document _document;
+        private readonly Email _email;
+        private readonly Address _address;
+        private readonly Student _student;
+        private readonly Subscription _subscription;
+
+        public StudentTests()
         {
-            var name = new Name("Bruce", "Wayne");
-            var document = new Document("46808369038", EDocumentType.CPF);
-            var email = new Email("batman@dc.com");
-            var address = new Address("Rua 1", "1234", "Bairro Legal", "Gotham", "SP", "USA", "31235465");
-            var student = new Student(name, document, email);
-            var subscription = new Subscription(null);
-            var payment = new PayPalPayment("12345678", DateTime.Now, DateTime.Now.AddDays(5), 10, 10, "Wayne Corp", document, address, email);
-
-            subscription.AddPayment(payment);
-
-            student.AddSubcription(subscription);
-            student.AddSubcription(subscription);
-
-            Assert.IsTrue(student.Invalid);
+            _name = new Name("Bruce", "Wayne");
+            _document = new Document("46808369038", EDocumentType.CPF);
+            _email = new Email("batman@dc.com");
+            _address = new Address("Rua 1", "1234", "Bairro Legal", "Gotham", "SP", "USA", "31235465");
+            _student = new Student(_name, _document, _email);
+            _subscription = new Subscription(null);
         }
 
         [TestMethod]
-        public void ShouldReturnSuccessWhenHadNoActiveSubscription()
+        public void ShouldReturnErrorWhenHadActiveSubscription()
         {
-            Assert.Fail();
+            var payment = new PayPalPayment("12345678", DateTime.Now, DateTime.Now.AddDays(5), 10, 10, "Wayne Corp", _document, _address, _email);
+            _subscription.AddPayment(payment);
+
+            _student.AddSubcription(_subscription);
+            _student.AddSubcription(_subscription);
+
+            Assert.IsTrue(_student.Invalid);
         }
 
         [TestMethod]
         public void ShouldReturnErrorWhenSubscriptionHasNoPayment()
         {
-            var name = new Name("Bruce", "Wayne");
-            var document = new Document("46808369038", EDocumentType.CPF);
-            var email = new Email("batman@dc.com");
-            var student = new Student(name, document, email);
+            _student.AddSubcription(_subscription);
+            Assert.IsTrue(_student.Invalid);
+        }
 
-            Assert.Fail();
+        [TestMethod]
+        public void ShouldReturnSuccessWhenHadNoActiveSubscription()
+        {
+            var payment = new PayPalPayment("12345678", DateTime.Now, DateTime.Now.AddDays(5), 10, 10, "Wayne Corp", _document, _address, _email);
+            _subscription.AddPayment(payment);
+            _student.AddSubcription(_subscription);
+
+            Assert.IsTrue(_student.Valid);
         }
     }
 }
