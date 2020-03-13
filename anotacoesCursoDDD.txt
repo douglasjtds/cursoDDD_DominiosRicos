@@ -47,3 +47,5 @@ Domain Driven Design
 - Fail Fast Validation
 
 - Testando os Commands
+
+- Repository Pattern
