@@ -39,7 +39,8 @@ Domain Driven Design
 		
 - Design By Contracts
 	- Code Contracs - Microsoft
+	
+- Testing Entities and Value Objects
+	
+- CQRS - Command Query Responsibility Segregation
 	- 
-	
-	
-	CONTINUAR: https://app.balta.io/player/1975/modules/1/classes/14 29:12
