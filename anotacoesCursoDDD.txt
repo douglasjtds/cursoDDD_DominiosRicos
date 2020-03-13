@@ -49,3 +49,5 @@ Domain Driven Design
 - Testando os Commands
 
 - Repository Pattern
+
+- Handlers
