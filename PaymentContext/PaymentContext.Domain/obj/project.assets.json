@@ -226,11 +226,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\other\\cursoDDD_DominiosRicos\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj",
+      "projectUniqueName": "c:\\Projects\\other\\cursoDDD_DominiosRicos\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj",
       "projectName": "PaymentContext.Domain",
-      "projectPath": "C:\\Projects\\other\\cursoDDD_DominiosRicos\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj",
+      "projectPath": "c:\\Projects\\other\\cursoDDD_DominiosRicos\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj",
       "packagesPath": "C:\\Users\\Douglas\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\other\\cursoDDD_DominiosRicos\\PaymentContext\\PaymentContext.Domain\\obj\\",
+      "outputPath": "c:\\Projects\\other\\cursoDDD_DominiosRicos\\PaymentContext\\PaymentContext.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Douglas\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -244,8 +244,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Projects\\other\\cursoDDD_DominiosRicos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
-              "projectPath": "C:\\Projects\\other\\cursoDDD_DominiosRicos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj"
+            "c:\\Projects\\other\\cursoDDD_DominiosRicos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
+              "projectPath": "c:\\Projects\\other\\cursoDDD_DominiosRicos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj"
             }
           }
         }

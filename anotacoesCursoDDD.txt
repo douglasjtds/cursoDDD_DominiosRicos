@@ -51,3 +51,7 @@ Domain Driven Design
 - Repository Pattern
 
 - Handlers
+
+- Queries
+
+- https://app.balta.io/player/1975/modules/1/classes/22
