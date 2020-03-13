@@ -46,7 +46,7 @@ namespace PaymentContext.Tests
         }
 
         [TestMethod]
-        public void ShouldReturnSuccessWhenHadNoActiveSubscription()
+        public void ShouldReturnSuccessWhenAddSubscription()
         {
             var payment = new PayPalPayment("12345678", DateTime.Now, DateTime.Now.AddDays(5), 10, 10, "Wayne Corp", _document, _address, _email);
             _subscription.AddPayment(payment);
