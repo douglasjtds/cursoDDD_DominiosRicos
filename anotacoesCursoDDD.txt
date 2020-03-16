@@ -1,4 +1,6 @@
  ----------------------------------- Modelando Domínios Ricos -----------------------------------
+- url do curso: https://app.balta.io/courses/1975
+ 
 Domain Driven Design
 
 - Linguagem Obíquoa
@@ -54,4 +56,4 @@ Domain Driven Design
 
 - Queries
 
-- https://app.balta.io/player/1975/modules/1/classes/22
+- Testing Queries
