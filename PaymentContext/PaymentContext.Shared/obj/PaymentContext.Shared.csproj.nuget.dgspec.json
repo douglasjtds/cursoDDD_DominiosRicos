@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Projects\\other\\cursoDDD_DominiosRicos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {}
+    "C:\\Projects\\other\\cursoDDD_DominiosRicos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {}
   },
   "projects": {
-    "c:\\Projects\\other\\cursoDDD_DominiosRicos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
+    "C:\\Projects\\other\\cursoDDD_DominiosRicos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Projects\\other\\cursoDDD_DominiosRicos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
+        "projectUniqueName": "C:\\Projects\\other\\cursoDDD_DominiosRicos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
         "projectName": "PaymentContext.Shared",
-        "projectPath": "c:\\Projects\\other\\cursoDDD_DominiosRicos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
+        "projectPath": "C:\\Projects\\other\\cursoDDD_DominiosRicos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
         "packagesPath": "C:\\Users\\Douglas\\.nuget\\packages\\",
-        "outputPath": "c:\\Projects\\other\\cursoDDD_DominiosRicos\\PaymentContext\\PaymentContext.Shared\\obj\\",
+        "outputPath": "C:\\Projects\\other\\cursoDDD_DominiosRicos\\PaymentContext\\PaymentContext.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Douglas\\AppData\\Roaming\\NuGet\\NuGet.Config"
