@@ -95,3 +95,5 @@ C:\Projects\other\cursoDDD_DominiosRicos\PaymentContext\PaymentContext.Tests\bin
 C:\Projects\other\cursoDDD_DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\netcoreapp3.1\PaymentContext.Shared.pdb
 C:\Projects\other\cursoDDD_DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\netcoreapp3.1\PaymentContext.Domain.pdb
 C:\Projects\other\cursoDDD_DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\netcoreapp3.1\Flunt.dll
+C:\Projects\other\cursoDDD_DominiosRicos\PaymentContext\PaymentContext.Tests\obj\Debug\netcoreapp3.1\PaymentContext.Tests.csproj.CoreCompileInputs.cache
+C:\Projects\other\cursoDDD_DominiosRicos\PaymentContext\PaymentContext.Tests\obj\Debug\netcoreapp3.1\PaymentContext.Tests.genruntimeconfig.cache
